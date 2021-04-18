@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(./images/bg-pattern-top-mobile.svg);
+    background-repeat: no-repeat;
+}
+.main {
+    width: 320px;
+    margin: 50px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.title {
+    width: 300px;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 35px;
+    color: #400048;
+    font-weight: 700;
+}
+
+.title p {
+    font-size: 16px;
+    color: #776d8a;
+    padding-top: 3px;
+}
+
+.ratings {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.rate1 {
+    width: 320px;
+    background-color: whitesmoke;
+    padding: 15px 0px;
+    margin: 8px 0px;
+    border-radius: 8px;
+}
+.rate1 p {
+    color: #400048;
+    font-weight: 700;
+}
+
+.rate2 {
+    width: 320px;
+    background-color:whitesmoke;
+    padding: 15px 0px;
+    margin: 8px 0px;
+    border-radius: 8px;
+}
+
+.rate2 p {
+    color: #400048;
+    font-weight: 700;
+}
+
+.rate3 {
+    width: 320px;
+    background-color: whitesmoke;
+    padding: 15px 0px;
+    margin: 8px 0px;
+    border-radius: 8px;
+}
+
+.rate3 p {
+    color: #400048;
+    font-weight: 700;
+}
+
+.reviews {
+    margin-top: 20px;
+    padding: 30px 10px;
+}
+
+.content {
+    padding: 12px;
+}
+
+.content p {
+    padding-top: 8px;
+    font-size: 13px;
+    color: #cdd0cb;
+}
+
+.profile {
+    display: flex;
+}
+
+.profile span {
+    font-weight: 700;
+    font-size: 18px;
+    color: #f4f9f4;
+}
+
+.profile p {
+    padding-left: 20px;
+    color: #b9375e;
+    font-size: 13px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 70px;
+}
+
+.colton {
+    width: 300px;
+    height: 180px;
+    background-color: #400048;
+    border-radius: 8px;
+}
+
+.irene {
+    width: 300px;
+    height: 180px;
+    background-color: #400048;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.anne {
+    width: 300px;
+    height: 180px;
+    background-color: #400048;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+@media (min-width: 1000px) {
+    body {
+        background: url(./images/bg-pattern-top-desktop.svg);
+        background-repeat: no-repeat;
+    }
+    .main {
+        width: 1000px;
+        margin: 120px auto;
+    }
+    
+    .top {
+        display: flex;
+    }
+    
+    .title {
+        width: 420px;
+        height: 270px;
+        text-align: left;
+    }
+    
+    .title h1 {
+        font-size: 50px;
+    }
+    
+    .ratings {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    
+    .stars {
+        padding-left: 30px;
+    }
+    
+    .rate1 {
+        display: flex;
+        width: 400px;
+        align-self: flex-start;
+    }
+    .rate1 p {
+        padding-left: 15px;
+    }
+    
+    .rate2 {
+        display: flex;
+        width: 400px;
+        align-self: center;
+    }
+    
+    .rate2 p {
+        padding-left: 15px;
+    }
+    
+    .rate3 {
+        display: flex;
+        width: 400px;
+        align-self: flex-end;
+    }
+    
+    .rate3 p {
+        padding-left: 15px;
+    }
+    
+    .reviews {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .irene {
+        margin-left: 20px;
+    }
+    
+    .anne {
+        margin-top: 35px;
+        margin-left: 20px;
+    }
+}
